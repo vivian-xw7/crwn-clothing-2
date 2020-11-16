@@ -19,4 +19,16 @@
     color: black;
     border: 1px solid black;
   }
+
+  // ampersand is same as saying customButton.google-sign-in
+  // wothout it, it will apply it to the cusom-button children
+  &.google-sign-in {
+    background-color: #4285f4;
+    color: white;
+
+    &:hover {
+      background-color: #357ae8;
+      border: none;
+    }
+  }
 }
